@@ -135,7 +135,7 @@ body{
 
 .dropdown__sub{
     overflow: hidden;
-
+    z-index: 100;
 }
 
 .dropdown__li{

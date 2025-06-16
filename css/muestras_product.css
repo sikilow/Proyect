@@ -9,8 +9,8 @@
     height: 200px;
     background-color:rgb(255, 255, 255);
     border-radius: 20px;
-    position: relative;
-    z-index: 2;
+  
+   
    
 }
 
@@ -18,7 +18,7 @@
     height: 160px;
     width: 160px;
     background-color: black;
-    float: left;
+    
     margin-top:25px ;
     margin-left: 90px;
      z-index: 2;
