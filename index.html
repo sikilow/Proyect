@@ -13,39 +13,95 @@
 <body>
     <div class="body">
 
-       <div class="header">
+       <nav class="nav">
 
-            <div class="content">
+        <div class="nav__container">
 
-                <div class="img"></div>
-                        <button class="hamburger" id="hamburger">&#9776;</button>
+            <h1 class="nav__title">Boloburguer</h1>
 
-                <div class="menu">
-                    
-                    <ul>
-                        <li class="li"><a href="">Bebidas</a></li>
-                        <li class="li">
-                            <a href="">Hamburguesas</a>
-                            <div class="sub_menu">
-                                <ul>
-                                    <li><a href="">Al Carbon</a></li>
-                                    <li><a href="">Del Mar</a></li>
-                                    <li><a href="">Especiales</a></li>
-                                     <li><a href="">Infantiles</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="li"><a href="">Charolas</a></li>
-                        <li class="li"><a href="">Contactos</a></li>
-                    </ul>
+            <a href="#menu" class="nav__menu">
+                <img src="./assets/menu.svg" class="nav__icon">
+            </a>
 
+            <a href="#" class="nav__menu nav__menu--second">
+                <img src="./assets/close.svg" class="nav__icon ">
+            </a>
 
-                </div>
+            <ul class="dropdown" id="menu">
 
-            </div>
+                <li class="dropdown__list">
+                    <a href="#" class="dropdown__link">
+                        <img src="./assets/house.svg" class="dropdown__icon">
+                        <span class="dropdown__span">Inicio</span>
+                    </a>
+                </li>
 
+                <li class="dropdown__list">
+                    <a href="#" class="dropdown__link">
+                        <img src="./assets/projects.svg" class="dropdown__icon">
+                        <span class="dropdown__span">Projects</span>
+                        <img src="./assets/down.svg" class="dropdown__arrow">
+
+                        <input type="checkbox" class="dropdown__check">
+                    </a>
+
+                    <div class="dropdown__content">
+
+                        <ul class="dropdown__sub">
+
+                            <li class="dropdown__li">
+                                <a href="#" class="dropdown__anchor">Project 1</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="#" class="dropdown__anchor">Project 2</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="#" class="dropdown__anchor">Project 3</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </li>
+
+                <li class="dropdown__list">
+                    <a href="#" class="dropdown__link">
+                        <img src="./assets/email.svg" class="dropdown__icon">
+                        <span class="dropdown__span">Contacto</span>
+                        <img src="./assets/down.svg" class="dropdown__arrow">
+
+                        <input type="checkbox" class="dropdown__check">
+                    </a>
+
+                    <div class="dropdown__content">
+
+                        <ul class="dropdown__sub">
+
+                            <li class="dropdown__li">
+                                <a href="#" class="dropdown__anchor">Contact 1</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="#" class="dropdown__anchor">Contact 2</a>
+                            </li>
+                          
+
+                        </ul>
+
+                    </div>
+                </li>
+
+                <li class="dropdown__list">
+                    <a href="#" class="dropdown__link">
+                        <img src="./assets/help.svg" class="dropdown__icon">
+                        <span class="dropdown__span">Ayuda</span>
+                    </a>
+                </li>
+
+            </ul>
 
         </div>
+
+    </nav>
         <div class="overflow"></div>
 
         <div class="content_block_2">
