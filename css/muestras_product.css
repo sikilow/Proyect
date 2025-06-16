@@ -10,6 +10,7 @@
     background-color:rgb(255, 255, 255);
     border-radius: 20px;
     position: relative;
+    border-bottom: 5px solid rgb(0, 0, 0);
 }
 
 .img_product {
