@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.muestras_menu {
+    margin-top: 50px;
+    padding: 0px;
+    width: 100%;
+    height: 200px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 20px;
+    position: relative;
+}
+
+.img_product {
+    height: 160px;
+    width: 160px;
+    background-color: black;
+    float: left;
+    margin-top:25px ;
+    margin-left: 90px;
+}
+
+
+.text_description{
+    width: 70%;
+    float: right;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.text_description p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+
+}
+

@@ -1,0 +1,101 @@
+* {
+   
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/img/Img_proyecto_hamburguesas.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.body{
+    position: relative;
+    margin: 0 auto;
+    padding: 0px;
+    overflow: hidden;
+}
+.overflow{
+    overflow: hidden;
+}
+
+.header{
+    position: relative;
+    background-color: aqua;
+    height: auto;
+    width: 100%;
+    z-index: 10;
+}
+.content{
+  
+    margin: 0 auto;
+    padding: 0px;
+    max-width: 1600px;
+    height: auto;
+    overflow: hidden;
+   
+}
+.img{
+    float: left;
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    
+}
+.menu{
+    float: right;
+    margin-top: 60px ;
+    padding: 0px;
+    width: auto;
+    
+}
+.menu ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.menu ul .li{
+    float: left;
+    margin-right: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 22px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.sub_menu {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 20px; /* Ajusta según sea necesario para alinear con el padre */
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+    width:200px;      /* un poco más ancho para que quepa el texto */
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s ease;
+    background-color: rgb(191, 188, 188);
+    border-radius: 10px;
+    
+}
+.sub_menu ul{
+    float: left;
+    margin: 0 auto;
+    padding: 0px;
+}
+.sub_menu ul li{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.sub_menu ul li p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.menu ul li:hover .sub_menu {
+    height: 160px; /* Ajusta la altura según el contenido del submenú */
+}
+
