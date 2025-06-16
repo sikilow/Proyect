@@ -15,7 +15,7 @@ body{
 
 
 .nav{
-    background-color: #830248;
+    background-color: #f9c128;
 
     --img1: scale(1);
     --img2: scale(0);
@@ -69,7 +69,7 @@ body{
 }
 
 .dropdown{
-    position: absolute;
+    position: fixed;
     background-color: #000;
     width: 75%;
     max-width: 300px;
@@ -110,7 +110,7 @@ body{
 .dropdown__list:has( :checked ){
     --rows: 1fr;
     --rotate: rotate(180deg);
-    --bg: #28303B;
+    --bg: #3b3728;
 }
 
 .dropdown__check{
