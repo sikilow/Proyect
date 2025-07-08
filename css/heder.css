@@ -33,13 +33,15 @@ body{
 .nav__container{
     width: 90%;
     margin: 0 auto;
-    height: 70px;
+    height: 115px;
 
     display: grid;
     grid-template-columns: max-content max-content;
     grid-template-areas: "title img";
     justify-content: space-between;
     align-items: center;
+
+    
 
     overflow: hidden;
    
@@ -85,7 +87,7 @@ body{
 
 
     clip-path: var(--clip, inset(0 0 100% 100%));
-    transition: clip-path .5s;
+    transition: clip-path .35s;
 }
 
 .dropdown__list{
@@ -123,7 +125,7 @@ body{
 .dropdown__arrow{
     margin-left: auto;
     transform: var(--rotate, 0);
-    transition: .2s transform;
+    transition: .1s transform;
 }
 
 .dropdown__content{
@@ -148,4 +150,16 @@ body{
     display: block;
     color: #B6BABE;
     text-decoration: none;
+}
+
+.img_logo_nav {
+    height: 100px;
+    width: 350px;
+    background-image: url('../assets/Sin\ título.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+    /* Puedes agregar un background-image aquí si tienes un logo, por ejemplo:
+    background-image: url('../assets/logo.png');
+    */
 }

@@ -22,7 +22,11 @@
   .hamburger {
     display: block;
   }
-
+  .img_logo_nav {
+    width: 310px;
+    height: 50px;
+ 
+  }
   .menu {
 
     width: 100%;
