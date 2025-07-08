@@ -34,7 +34,7 @@
                        
                         <span class="dropdown__span">Bebidas</span>
                          <img src="./assets/down.svg" class="dropdown__arrow">
-                        <input type="checkbox" class="dropdown__check">
+                        <input type="checkbox" class="dropdown__check" data-dropdown>
                     </a>
                      <div class="dropdown__content">
 
@@ -66,7 +66,7 @@
                         <span class="dropdown__span">Hamburguesas</span>
                         <img src="./assets/down.svg" class="dropdown__arrow">
 
-                        <input type="checkbox" class="dropdown__check">
+                        <input type="checkbox" class="dropdown__check" data-dropdown>
                     </a>
 
                     <div class="dropdown__content">
@@ -97,7 +97,7 @@
                         <span class="dropdown__span">Charrolas</span>
                         
 
-                        <input type="checkbox" class="dropdown__check">
+                        <input type="checkbox" class="dropdown__check" data-dropdown>
                     </a>
 
                    
@@ -183,14 +183,8 @@
         </div>
 <div class="overflow"></div>
     <div class="footer"></div>
-    <script>
-  const hamburger = document.getElementById('hamburger');
-  const menu = document.getElementById('menu');
-
-  hamburger.addEventListener('click', () => {
-    menu.classList.toggle('active');
-  });
-</script>
+    
+<script src="lops.js"></script>
 
 </body>
 </html>
