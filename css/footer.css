@@ -1,0 +1,87 @@
+*{ 
+    margin: 0 auto;
+    padding: 0px;
+}
+.footer {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 350px;
+    background-color: #000000;
+    overflow: hidden;
+    
+}
+.content_block_footer {
+    margin: 0 auto;
+    padding: 0px;
+    max-width: 1900px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+
+}
+.block_1_footer { /*Faltan imagenes y links*/
+    margin: 0px;
+    padding: 0px;
+    margin-left: 36px;
+    margin-right: 36px;
+    width: 560px;
+    height: auto;
+    background-color: #f00404;
+    float: left;
+}
+.block_2_footer {  /*Listo solo falta Responsivo*/
+    margin: 0px;
+    padding: 0px;
+    margin-top:20px ;
+    margin-left: 36px;
+    margin-right: 36px;
+    width: 560px;
+    height: 90%;
+    
+    float: left;
+}
+.text_block_2_footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+/*Bloque 3*/
+.block_3_footer {
+    margin-top: 25px;
+    padding: 0px;
+    margin-left: 36px;
+    margin-right: 36px;
+    width: 560px;
+    height: auto;
+   
+    float: left;
+   
+}
+.list_footer_horario {
+    
+    margin-top: 30px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    color: #fff;
+    list-style: none;
+}
+.titule_footer_horario {
+    font-weight: 500;
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.list_footer_horario li {
+    margin-bottom: 10px;
+    padding-left: 80px;
+}
+.list_footer_horario li p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #fff;
+}
