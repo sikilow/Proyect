@@ -14,9 +14,10 @@
     float: left;
     height: 250px;
     width: 250px;
-    background-color: black;
-    
- 
+    background-image: url(../img/Bebidas/bombastic.jpg);
+
+    background-size: cover;
+    background-position: center;
     margin-left: 90px;
      z-index: 2;
 }
