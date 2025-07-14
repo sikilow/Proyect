@@ -27,7 +27,53 @@
     margin-right: 36px;
     width: 560px;
     height: auto;
-    background-color: #f00404;
+    float: left;
+}
+.img_logo_footer {
+    margin-left: 90px;
+    padding: 0px;
+    width: 300px;
+    height: 200px;
+    background-image: url(../components/logo\ boloburgers.svg);
+    background-repeat: no-repeat;
+    filter: brightness(0) invert(1);
+  
+}
+.list_redes_footer{
+    margin-left: 50px;
+    padding: 0px;
+    overflow: hidden;
+}
+.list_redes_footer li {
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+}
+
+
+
+.facebook_footer {
+    margin-top: 20px;
+    padding: 0px;
+    margin-right: 25px ;
+    width: 75px;
+    height: 75px;
+    background-image: url(../components/logo\ facebook.svg);
+    background-repeat: no-repeat;
+    border-radius: 25%;
+    float: left;
+    
+}
+
+.instagram_footer {
+    margin-top: 20px;
+    padding: 0px;
+    margin-right: 25px ;
+    width: 80px;
+    height: 80px;
+    background-image: url(../components/logo\ instagram.svg);
+    background-repeat: no-repeat;
+    border-radius: 25%;
     float: left;
 }
 .block_2_footer {  /*Listo solo falta Responsivo*/

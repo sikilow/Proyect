@@ -1,12 +1,24 @@
 @media screen and (max-width: 768px) {
     .footer {
-        height: 350px;
+        height: 500px;
         width: 100%;
         padding: 0px;
     }
     .block_1_footer {
         width: 100%;
         height: auto;
+        margin: 0px;
+    }
+    .img_logo_footer {
+        width: 768px;
+        height: 200px;
+        margin-left: 40px;
+        
+    }
+    .list_redes_footer {
+        width: 0px;
+        height: 0px;
+        padding: 0px;
         margin: 0px;
     }
     .block_2_footer {

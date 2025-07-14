@@ -33,7 +33,7 @@ body{
 .nav__container{
     width: 90%;
     margin: 0 auto;
-    height: 115px;
+    height: 135px;
 
     display: grid;
     grid-template-columns: max-content max-content;
@@ -68,6 +68,7 @@ body{
 .nav__icon{
     width: 30px;
     display: block;
+ 
 }
 
 .dropdown{
