@@ -110,10 +110,10 @@
   .text_description p {
     font-size: 16px;
   }
-  @media screen and (max-width: 920px) {
+  @media screen and (max-width: 900px) {
     .img_product{
       width: 100%;
-      max-width: 900px;
+      max-width: 358px;
     }
     .img_logo_footer {
         margin: 0px;
