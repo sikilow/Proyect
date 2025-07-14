@@ -77,10 +77,12 @@
         margin-top: 50px;
     }
    .img_product {
+    margin: 0 auto;
+    padding: 0px;
         float: left;
         height: 350px;
         width: 370px;
-        margin-left: 1px;
+        
         margin-top: 20px;
         background-color: rebeccapurple;
     }
@@ -96,4 +98,5 @@
     .content_block_2 h1 {
         font-size: 24px;
     }
+   
 }
