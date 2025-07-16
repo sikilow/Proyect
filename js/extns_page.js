@@ -1,5 +1,11 @@
-fetch("header.html")
-  .then(res => res.text())
-  .then(html => {
-    document.getElementById("header").innerHTML = html;
-  });
+document.addEventListener("DOMContentLoaded", () => {
+  // Cargar header
+  fetch('../../header.html')
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById('header').innerHTML = data;
+      // Aquí puedes inicializar menú, etc.
+    });
+
+  
+});
