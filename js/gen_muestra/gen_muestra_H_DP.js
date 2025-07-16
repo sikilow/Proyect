@@ -21,7 +21,7 @@ function renderMuestras(muestras) {
 
 const productos = [
     {
-        imagen: '../../assets/images/Hamburguesas/DePollo/chiken_pollo.jpg',
+        imagen: '../../img/Hamburguesas/DePollo/chiken_pollo.jpg',
         nombre: 'Boloburger de Pollo',
         ingredientes: 'Camarón a la plancha, queso asadero, cebolla caramelizada, lechuga, jitomate, cebolla y pepinillos.',
         precio: '$119'
