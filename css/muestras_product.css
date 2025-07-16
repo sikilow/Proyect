@@ -13,9 +13,7 @@
 .img_product {
     float: left;
     height: 250px;
-    width: 250px;
-    background-image: url(../img/Bebidas/bombastic.jpg);
-
+    width: 350px;
     background-size: cover;
     background-position: center;
     margin-left: 90px;

@@ -17,10 +17,13 @@
 .content_block_2 {
    
     margin: 0 auto;
+    margin-bottom: 100px;
     max-width: 1500px;
     padding: 0px;
     width: 100%;
     height: auto;
+    overflow: hidden;
+   
     z-index: 1;
     
 }

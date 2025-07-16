@@ -1,5 +1,18 @@
 @media screen and (max-width: 768px) {
+    .img_logo_nav{
+    width: 67vw;
+    height: 67px;
+    max-width: 200px;
     
+  }
+  .content_block_2 {
+        margin: 0 auto;
+        margin-bottom: 0px;
+        padding: 0px;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
     .footer {
         
         height: auto;

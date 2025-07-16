@@ -68,32 +68,33 @@
 @media screen and (max-width:728px) {
    
     .muestras_menu {
+        margin-top: 0px;
         float: left;
         width: auto;
         height: auto;
         padding: 8px;
-        margin-top: 50px;
+        
     }
    .img_product {
+        margin-top: 50px;
         float: left;
         height: 350px;
         width: 370px;
         margin-left: 1px;
-        margin-top: 20px;
+       
        
     }
     .text_description {
         width: 100%;
         margin-top: 20px;
         margin-left: 20px;
+        font-size: 30px;
     }
     .text_description p {
-        font-size: 22px;
+        font-size: 30px;
         
     }
-    .content_block_2 h1 {
-        font-size: 24px;
-    }
+    
    
 }
 @media screen and (max-width: 450px) {
