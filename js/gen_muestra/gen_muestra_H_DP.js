@@ -21,59 +21,59 @@ function renderMuestras(muestras) {
 
 const productos = [
     {
-        imagen: '../../img/Hamburguesas/DePollo/chiken pollo.jpg',
+        imagen: '../../img/Hamburguesas/DePollo/chiken_pollo.jpg',
         nombre: 'Boloburger de Pollo',
         ingredientes: 'Camarón a la plancha, queso asadero, cebolla caramelizada, lechuga, jitomate, cebolla y pepinillos.',
         precio: '$119'
     },
     {
-        imagen: '../../img/Hamburguesas/DePollo/chiken cheese.jpg',
+        imagen: '../../img/Hamburguesas/DePollo/chiken_cheese.jpg',
         nombre: 'Boloburger Chiken Chesse',
         ingredientes: 'Doble carne, queso cheddar, lechuga, jitomate, cebolla.',
         precio: '$149'
     }
     ,
     {
-        imagen: '../../img/Hamburguesas/DePollo/chiken asadera.jpg',
+        imagen: '../../img/Hamburguesas/DePollo/chiken_asadera.jpg',
         nombre: 'Boloburger Chiken Asadera',
         ingredientes: 'Doble carne, queso cheddar, lechuga, jitomate, cebolla.',
         precio: '$149'
     }
     ,
     {
-        imagen: '../../img/Hamburguesas/DePollo/chiken dip.jpg',
+        imagen: '../../img/Hamburguesas/DePollo/chiken_dip.jpg',
         nombre: 'Boloburger Chiken Dip',
         ingredientes: 'Doble carne, queso cheddar, lechuga, jitomate, cebolla.',
         precio: '$149'
     }
     ,
     {
-        imagen: '../../img/Hamburguesas/DePollo/chiken nacho.jpg',
+        imagen: '../../img/Hamburguesas/DePollo/chiken_nacho.jpg',
         nombre: 'Boloburger Chiken Nacho',
         ingredientes: 'Doble carne, queso cheddar, lechuga, jitomate, cebolla.',
         precio: '$149'
     }
     ,
     {
-        imagen: '../../img/Hamburguesas/DePollo/champi chiken.jpg',
+        imagen: '../../img/Hamburguesas/DePollo/champi_chiken.jpg',
         nombre: 'Champi Chicken',
         ingredientes: 'Doble carne, queso cheddar, lechuga, jitomate, cebolla.',
         precio: '$149'
     },
     {
-        imagen: '../../img/Hamburguesas/DePollo/country chiken.jpg',
+        imagen: '../../img/Hamburguesas/DePollo/country_chiken.jpg',
         nombre: 'Country Chicken',
         ingredientes: 'Doble carne, queso cheddar, lechuga, jitomate, cebolla.',
         precio: '$149'
     },
     {
-        imagen: '../../img/Hamburguesas/DePollo/porto bello.jpg',
+        imagen: '../../img/Hamburguesas/DePollo/porto_bello.jpg',
         nombre: 'Porto Bello',
         ingredientes: 'Doble carne, queso cheddar, lechuga, jitomate, cebolla.',
         precio: '$149'
     },
     {
-        imagen: '../../img/Hamburguesas/DePollo/bourger light.jpg',
+        imagen: '../../img/Hamburguesas/DePollo/light.jpg',
         nombre: 'Boloburger Light',
         ingredientes: 'Doble carne, queso cheddar, lechuga, jitomate, cebolla.',
         precio: '$149'
