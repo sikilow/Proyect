@@ -14,7 +14,6 @@
 /* Estilos responsivos */
 @media screen and (max-width: 768px) and (max-width: 800px) {
   .img {
-    
     margin: 0 auto;
     display: block;
   }
@@ -23,8 +22,9 @@
     display: block;
   }
   .img_logo_nav {
-    width: 310px;
-    height: 50px;
+    width: 67vw;
+    max-width: 200px;
+    height: 67px;
  
   }
   .menu {
@@ -66,9 +66,7 @@
   }
 }
 @media screen and (max-width:728px) {
-    .content_block_2 {
-      background-color: red;
-    }
+   
     .muestras_menu {
         float: left;
         width: auto;
@@ -82,7 +80,7 @@
         width: 370px;
         margin-left: 1px;
         margin-top: 20px;
-        background-color: rebeccapurple;
+       
     }
     .text_description {
         width: 100%;
@@ -100,8 +98,9 @@
 }
 @media screen and (max-width: 450px) {
   .img_logo_nav{
-    width: 95vw;
+    width: 67vw;
     max-width: 200px;
+    height: 67px;
   }
   .img_product {
     width: 100%;
@@ -120,20 +119,21 @@
         padding: 0px;
         width: 100%;
         height: 200px;
-        margin-left: 40px;
+        
     }
     .list_redes_footer {
         padding: 0px;
-        margin-left: 40px;
+        margin-left: 30%;
         width: 100%;
         height: auto;
         overflow: hidden;
+        margin-top: 30px;
     }
-    .facebook_footer, .instagram_footer {
+    .facebook_footer, .instagram_footer, .WhatsApp_footer {
         width: 50px;
         height: 50px;
         padding: 0px;
-        margin: 0px 30px;
+        margin: 0px;
     }
     .block_2_footer {
         width: 0px;

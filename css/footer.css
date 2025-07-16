@@ -18,6 +18,7 @@
     padding: 0px;
     width: 100%;
     height: 100%;
+    overflow: hidden;
 
 }
 .block_1_footer { /*Faltan imagenes y links*/
@@ -30,18 +31,17 @@
     float: left;
 }
 .img_logo_footer {
-    margin-left: 90px;
+    margin-left: 38px;
     padding: 0px;
-    width: 300px;
-    height: 200px;
-    background-image: url(../components/logo\ boloburgers.svg);
+    width: 425px;
+    height: 220px;
+    background-image: url(../components/boloburguers-05.png);
     background-repeat: no-repeat;
-    filter: brightness(0) invert(1);
-    
-  
+    background-size: cover;
 }
 .list_redes_footer{
-    margin-left: 50px;
+    
+    margin-left: 15%;
     padding: 0px;
     overflow: hidden;
 }
@@ -51,30 +51,39 @@
     margin-right: 20px;
 }
 
-
-
 .facebook_footer {
-    margin-top: 20px;
+    background-size: cover;
     padding: 0px;
-    margin-right: 25px ;
+    margin-right: 25px;
     width: 75px;
     height: 75px;
-    background-image: url(../components/logo\ facebook.svg);
+    background-image: url(../components/logos\,\ face\,\ insta\ y\ ubi-03.png);
     background-repeat: no-repeat;
-    border-radius: 25%;
+    background-size: cover;
     float: left;
     
 }
 
 .instagram_footer {
-    margin-top: 20px;
+   
     padding: 0px;
     margin-right: 25px ;
-    width: 80px;
-    height: 80px;
-    background-image: url(../components/logo\ instagram.svg);
+    width: 75px;
+    height: 75px;
+    background-image: url(../components/insta-04.png);
     background-repeat: no-repeat;
-    border-radius: 25%;
+    background-size: cover;
+    float: left;
+}
+
+.WhatsApp_footer {
+    padding: 0px;
+    margin-right: 25px ;
+    width: 75px;
+    height: 75px;
+    background-image: url(../components/whatsap-04.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     float: left;
 }
 .block_2_footer {  /*Listo solo falta Responsivo*/
