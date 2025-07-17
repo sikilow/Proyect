@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.img_product_B_M_1{
+    background-image: url(../img/Bebidas/Malteadas/malteada_de_fresa.jpg);
+}
+.img_product_B_M_2{
+    background-image: url(../img/Bebidas/Malteadas/malteada_de_vainilla.jpg);
+}
+.img_product_B_M_3{
+    background-image: url(../img/Bebidas/Malteadas/malteada_de_chocolate.jpg);
+}
+.img_product_B_M_4{
+    background-image: url(../img/Bebidas/Malteadas/malteadas_de_oreo.jpg);
+}

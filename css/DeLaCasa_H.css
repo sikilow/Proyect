@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.img_product_DLC_1{
+    background-image: url(../img/Hamburguesas/DeLaCasa_H/dip.jpg);
+   
+}
+.img_product_DLC_2{
+
+    background-image: url(../img/Hamburguesas/DeLaCasa_H/choridip.jpg);
+}
+.img_product_DLC_3{
+
+    background-image: url(../img/Hamburguesas/DeLaCasa_H/bolopizza.jpg);
+}
+.img_product_DLC_4{
+
+    background-image: url(../img/Hamburguesas/DeLaCasa_H/bolonacho.jpg);
+}
+.img_product_DLC_5{
+    background-image: url(../img/Hamburguesas/DeLaCasa_H/eva.jpg);
+}
+.img_product_DLC_6{
+    background-image: url(../img/Hamburguesas/DeLaCasa_H/adan.jpg);
+}
+.img_product_DLC_7{
+    background-image: url(../img/Hamburguesas/DeLaCasa_H/igus.jpg);
+}
+.img_product_DLC_8{
+    background-image: url(../img/Hamburguesas/DeLaCasa_H/torito.jpg);
+}
+.img_product_DLC_9{
+    background-image: url(../img/Hamburguesas/DeLaCasa_H/Mar_y_tiera.jpg);
+}
+.img_product_DLC_10{
+    background-image: url(../img/Hamburguesas/DeLaCasa_H/mexicana.jpg);
+}
+.img_product_DLC_11{
+    background-image: url(../img/Hamburguesas/DeLaCasa_H/extreme.jpg);
+}
+
+
+
+

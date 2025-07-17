@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.img_product_I_1{
+    background-image: url(../img/Hamburguesas/Infantil/nuggets_de_pollo.jpg);
+}
+.img_product_I_2{
+    background-image: url(../img/Hamburguesas/Infantil/tenders.jpg);
+}
+.img_product_I_3{
+    background-image: url(../img/Hamburguesas/Infantil/salchidedos.jpg);
+}
+.img_product_I_4{
+    background-image: url(../img/Hamburguesas/Infantil/res_infantil.jpg);
+}
+.img_product_I_5{
+    background-image: url(../img/Hamburguesas/Infantil/pollo_infantil.jpg);
+}
+
+
+
+

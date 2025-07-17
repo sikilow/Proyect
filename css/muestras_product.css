@@ -7,10 +7,11 @@
     width: 100%;
     height: 290px;
     background-color:rgb(255, 255, 255);
-    border-bottom: 1px solid rgba(253, 246, 36, 0.775);
+    border-bottom: 1px solid rgb(255, 227, 70);
 }
 
-.img_product {
+.img_product_C_1, .img_product_C_2, .img_product_C_3, .img_product_C_4, .img_product_C_5 ,  .img_product_C_6 ,  .img_product_C_7 , .img_product_C_8 ,   .img_product_C_9 , .img_product_C_10    ,.img_product_C_11, .img_product_C_12, .img_product_C_13{
+
     float: left;
     height: 250px;
     width: 350px;
@@ -19,8 +20,126 @@
     margin-left: 90px;
      z-index: 2;
 }
+.img_product_AC_1, .img_product_AC_2, .img_product_AC_3, .img_product_AC_4, .img_product_AC_5 ,  .img_product_AC_6 ,  .img_product_AC_7 , .img_product_AC_8 ,   .img_product_AC_9 , .img_product_AC_10    ,.img_product_AC_11, .img_product_AC_12 {
 
+    float: left;
+    height: 250px;
+    width: 350px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 90px;
+     z-index: 2;
+}
+.img_product_DLM_1, .img_product_DLM_2, .img_product_DLM_3, .img_product_DLM_4, .img_product_DLM_5 ,  .img_product_DLM_6 ,  .img_product_DLM_7 , .img_product_DLM_8 ,   .img_product_DLM_9 , .img_product_DLM_10    ,.img_product_DLM_11, .img_product_DLM_12 {
 
+    float: left;
+    height: 250px;
+    width: 350px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 90px;
+     z-index: 2;
+}
+.img_product_DLC_1, .img_product_DLC_2, .img_product_DLC_3, .img_product_DLC_4, .img_product_DLC_5 ,  .img_product_DLC_6 ,  .img_product_DLC_7 , .img_product_DLC_8 ,   .img_product_DLC_9 , .img_product_DLC_10    ,.img_product_DLC_11, .img_product_DLC_12 {
+
+    float: left;
+    height: 250px;
+    width: 350px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 90px;
+     z-index: 2;
+}
+.img_product_DP_1, .img_product_DP_2, .img_product_DP_3, .img_product_DP_4, .img_product_DP_5 ,  .img_product_DP_6 ,  .img_product_DP_7 , .img_product_DP_8 ,   .img_product_DP_9 , .img_product_DP_10    ,.img_product_DP_11, .img_product_DP_12 {
+
+    float: left;
+    height: 250px;
+    width: 350px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 90px;
+     z-index: 2;
+}
+.img_product_I_1, .img_product_I_2, .img_product_I_3, .img_product_I_4, .img_product_I_5 ,  .img_product_I_6 ,  .img_product_I_7 , .img_product_I_8 ,   .img_product_I_9 , .img_product_I_10    ,.img_product_I_11, .img_product_I_12 {
+    float: left;
+    height: 250px;
+    width: 350px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 90px;
+    z-index: 2;
+}
+/*Bebidas*/
+.img_product_B_LT_1, .img_product_B_LT_2, .img_product_B_LT_3, .img_product_B_LT_4, .img_product_B_LT_5 ,  .img_product_B_LT_6 ,  .img_product_B_LT_7 , .img_product_B_LT_8 ,   .img_product_B_LT_9 , .img_product_B_LT_10    ,.img_product_B_LT_11, .img_product_B_LT_12 {
+    float: left;
+    height: 290px;
+    width: 350px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 90px;
+    z-index: 2;
+}
+.img_product_B_L_1, .img_product_B_L_2, .img_product_B_L_3, .img_product_B_L_4, .img_product_B_L_5 ,  .img_product_B_L_6 ,  .img_product_B_L_7 , .img_product_B_L_8 ,   .img_product_B_L_9 , .img_product_B_L_10    ,.img_product_B_L_11, .img_product_B_L_12 {
+    float: left;
+    height: 250px;
+    width: 350px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 90px;
+    z-index: 2;
+}
+.img_product_B_M_1, .img_product_B_M_2, .img_product_B_M_3, .img_product_B_M_4, .img_product_B_M_5 ,  .img_product_B_M_6 ,  .img_product_B_M_7 , .img_product_B_M_8 ,   .img_product_B_M_9 , .img_product_B_M_10    ,.img_product_B_M_11, .img_product_B_M_12 {
+    float: left;
+    height: 290px;
+    width: 350px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 90px;
+    z-index: 2;
+}
+  .img_product_B_DLC_B_1, .img_product_B_DLC_B_2, .img_product_B_DLC_B_3, .img_product_B_DLC_B_4, .img_product_B_DLC_B_5 ,  .img_product_B_DLC_B_6 ,  .img_product_B_DLC_B_7 , .img_product_B_DLC_B_8 ,   .img_product_B_DLC_B_9 , .img_product_B_DLC_B_10    ,.img_product_B_DLC_B_11, .img_product_B_DLC_B_12 {
+    float: left;
+    height: 250px;
+    width: 350px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 90px;
+    z-index: 2;
+}
+.img_product_T_1, .img_product_T_2, .img_product_T_3, .img_product_T_4, .img_product_T_5 ,  .img_product_T_6 ,  .img_product_T_7 , .img_product_T_8 ,   .img_product_T9 , .img_product_T_10    ,.img_product_T_11, .img_product_T_12 {
+    float: left;
+    height: 250px;
+    width: 350px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 90px;
+    z-index: 2;
+}
+.img_product_E_1, .img_product_E_2, .img_product_E_3 {
+    float: left;
+    height: 260px;
+    width: 350px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 90px;
+    z-index: 2;
+}
+.img_product_S_1, .img_product_S_2, .img_product_S_3, .img_product_S_4, .img_product_S_5 ,  .img_product_S_6 ,  .img_product_S_7 , .img_product_S_8 ,   .img_product_S_9 , .img_product_S_10    ,.img_product_S_11, .img_product_S_12 , .img_product_S_13    ,.img_product_S_14, .img_product_S_15 , .img_product_S_16    ,.img_product_S_17 {
+    float: left;
+    height: 260px;
+    width: 350px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 90px;
+    z-index: 2;
+}
 .text_description{
     width: 70%;
     float: right;

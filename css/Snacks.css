@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.img_product_S_1{
+    background-image: url(../img/Snacks/bonnles.jpg);
+}
+.img_product_S_2{
+    background-image: url(../img/Snacks/tenders.jpg);
+}
+.img_product_S_3{
+    background-image: url(../img/Snacks/alitas.jpg);
+}
+.img_product_S_4{
+    background-image: url(../img/Snacks/alitas_momia.jpg);
+}
+.img_product_S_5{
+    background-image: url(../img/Snacks/costillas.jpg);
+}
+.img_product_S_6{
+       background-image: url(../img/Snacks/aros_de_cebolla.jpg);
+}
+.img_product_S_7{
+    background-image: url(../img/Snacks/dedos_de_queso.jpg);
+}
+.img_product_S_8{
+    background-image: url(../img/Snacks/aros_de_cebolla.jpg);
+}
+.img_product_S_9{
+    background-image: url(../img/Snacks/salchitacos.jpg);
+}
+.img_product_S_10{
+    background-image: url(../img/Snacks/bolonachos.jpg);
+}
+.img_product_S_11{
+    background-image: url(../img/Snacks/HotDogs/bolohotdog.jpg);
+}
+.img_product_S_12{
+    background-image: url(../img/Snacks/HotDogs/bolodogo.jpg);
+}
+.img_product_S_13{
+       background-image: url(../img/Snacks/Papas/papas_francesa.jpg);
+}
+.img_product_S_14{
+    background-image: url(../img/Snacks/Papas/papas_gajo.jpg);
+}
+.img_product_S_15{
+    background-image: url(../img/Snacks/Papas/papas_reja.jpg);
+}
+.img_product_S_16{
+    background-image: url(../img/Snacks/Papas/papamix.jpg);
+}
+.img_product_S_17{
+    background-image: url(../img/Snacks/Papas/orden_de_papas_especiales.jpg);
+}

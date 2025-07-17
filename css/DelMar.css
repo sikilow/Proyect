@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.img_product_DLM_1{
+    background-image: url(../img/Hamburguesas/DelMar/de\ camaron.jpg);
+}
+.img_product_DLM_2{
+
+    background-image: url(../img/Hamburguesas/DelMar/posible\ bolofish.jpg);
+}
+.img_product_DLM_3{
+    background-image: url(../img/Hamburguesas/DelMar/camarón\ crunchy.jpg);
+}
+.img_product_DLM_4{
+
+    background-image: url(../img/Hamburguesas/DelMar/san\ blas.jpg);
+}
+.img_product_DLM_5{
+    background-image: url(../img/Hamburguesas/DelMar/mexcaltitan.jpg);
+}
+

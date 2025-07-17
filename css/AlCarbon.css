@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.img_product_AC_1{
+    background-image: url(../img/Hamburguesas/Clasicas/clasica.jpg);
+}
+.img_product_AC_2{
+
+    background-image: url(../img/Hamburguesas/AlCarbon/3\ quesos.jpg);
+}
+.img_product_AC_3{
+
+    background-image: url(../img/Hamburguesas/AlCarbon/golden\ cheese.jpg);
+}
+.img_product_AC_4{
+
+    background-image: url(../img/Hamburguesas/AlCarbon/suprema.jpg);
+}
+.img_product_AC_5{
+    background-image: url(../img/Hamburguesas/AlCarbon/don\ bolo.jpg);
+}
+.img_product_AC_6{
+    background-image: url(../img/Hamburguesas/AlCarbon/cielo\,\ mar\ y\ tierra.jpg);
+}
+.img_product_AC_7{
+    background-image: url(../img/Hamburguesas/AlCarbon/cowboy.jpg);
+}
+
+

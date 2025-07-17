@@ -12,6 +12,8 @@
     width: auto;
     height: auto;
    
+   
+   
 }
 /*Contenedor 2 aqui vamos a desarrollar el contenido principal*/
 .content_block_2 {
@@ -23,7 +25,7 @@
     width: 100%;
     height: auto;
     overflow: hidden;
-   
+    
     z-index: 1;
     
 }

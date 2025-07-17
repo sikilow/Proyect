@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.img_product_B_DLC_B_1{
+    background-image: url(../img/Bebidas/DeLaCasa_B/concha.jpg);
+}
+.img_product_B_DLC_B_2{
+    background-image: url(../img/Bebidas/DeLaCasa_B/chabela.jpg);
+}
+.img_product_B_DLC_B_3{
+    background-image: url(../img/Bebidas/DeLaCasa_B/juana.jpg);
+}
+.img_product_B_DLC_B_4{
+    background-image: url(../img/Bebidas/DeLaCasa_B/guarumo.jpg);
+}
+.img_product_B_DLC_B_5{
+    background-image: url(../img/Bebidas/DeLaCasa_B/catalina.jpg);
+}
+.img_product_B_DLC_B_6{
+       background-image: url(../img/Bebidas/DeLaCasa_B/cleopatra.jpg);
+}
+.img_product_B_DLC_B_7{
+    background-image: url(../img/Bebidas/DeLaCasa_B/clementina.jpg);
+}
+

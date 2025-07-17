@@ -25,28 +25,310 @@
     <meta name="twitter:image" content="cont_media/assets/Sin título.png">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="assets/components/icon-burguer.png">
+    <link rel="icon" type="image/png" href="img/components/icon-burguer.png">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/block_2.css">
     <link rel="stylesheet" href="css/muestras_product.css">
     <link rel="stylesheet" href="css/mediaQuerys/screen-phone.css">
     <link rel="stylesheet" href="css/mediaQuerys/screenpc.css">
-
+    <link rel="stylesheet" href="css/Clasicas.css">
 
 </head>
 <body>
     <div class="body">
 
-            <div id="header"></div>
+            <nav class="nav">
+            
+                <div class="nav__container">
+                    <div class="img_logo_nav"></div>
+                    <a href="#menu" class="nav__menu">
+                    <img src="../img/components/menu.svg" class="nav__icon">
+                    </a>
+                    <a href="#" class="nav__menu nav__menu--second">
+                    <img src="../img/components/close.svg" class="nav__icon ">
+                    </a>
+                    <ul class="dropdown" id="menu">
 
-                        <div class="overflow"></div>
+                <li class="dropdown__list">
+                    <a href="#" class="dropdown__link">
+                       
+                        <span class="dropdown__span">Bebidas</span>
+                         <img src="../img/components/down.svg" class="dropdown__arrow">
+                        <input type="checkbox" class="dropdown__check" data-dropdown>
+                    </a>
+                     <div class="dropdown__content">
 
-                 <div class="content_block_2">
-                            <div class="muestras_menu"></div>
+                        <ul class="dropdown__sub">  <!-- Sub menu de bebidas-->
+
+                            <li class="dropdown__li">
+                                <a href="pages/Bebidas/Malteadas.html" class="dropdown__anchor">Malteadas</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="pages/Bebidas/Especiales.html" class="dropdown__anchor">Especiales</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="pages/Bebidas/Limonadas.html" class="dropdown__anchor">Limonadas de la Casa</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="pages/Bebidas/Tradicionales.html" class="dropdown__anchor">Tradicionales</a>
+                            </li>
+                             <li class="dropdown__li">
+                                <a href="pages/Bebidas/DeLaCasa_B.html" class="dropdown__anchor">De la casa</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="pages/Bebidas/LimonadasTonicas.html" class="dropdown__anchor">Limonadas Tónicas</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </li>
+
+                <li class="dropdown__list">
+                    <a href="#" class="dropdown__link">
+
+                        <span class="dropdown__span">Hamburguesas</span> <!-- Sub menu de hamburguesas -->
+                        <img src="../img/components/down.svg" class="dropdown__arrow">
+
+                        <input type="checkbox" class="dropdown__check" data-dropdown>
+                    </a>
+
+                    <div class="dropdown__content">
+
+                        <ul class="dropdown__sub">
+                             </li>
+                             <li class="dropdown__li">
+                                <a href="index.html" class="dropdown__anchor">Clásicas</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="pages/Hamburguesas/AlCarbon.html" class="dropdown__anchor">Al Carbon</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="pages/Hamburguesas/DelMar.html" class="dropdown__anchor">Del Mar</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="pages/Hamburguesas/DeLaCasa.html" class="dropdown__anchor">De la Casa</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="pages/Hamburguesas/DePollo.html" class="dropdown__anchor">De Pollo</a>
+                            </li>
+                             <li class="dropdown__li">
+                                <a href="pages/Hamburguesas/Infantiles.html" class="dropdown__anchor">Infantiles</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </li>
+
+                <li class="dropdown__list">
+                    <a href="/pag_ext_bs/Snacks/Snacks.html" class="dropdown__link">
+                       
+                        <span class="dropdown__span">Snacks</span> <!-- Sub menu de snacks -->
+                       
+                    </a>
+                </li>
+
+                <li class="dropdown__list">
+                    <a href="#" class="dropdown__link">
+                        <img src="../img/components/whatsap-04.png" height="25px" width="25px" class="dropdown__icon">
+                        <span class="dropdown__span">Contacto</span>
+                    </a>
+                </li>
+                <li class="dropdown__list">
+                    <a href="https://www.google.com.mx/maps/place/BOLO+BURGERS/@21.4886589,-104.8858565,17z/data=!3m1!4b1!4m6!3m5!1s0x84273767d399c917:0x209464fc247e9ca!8m2!3d21.4886539!4d-104.8832816!16s%2Fg%2F11vln0b_gs?hl=es&entry=ttu&g_ep=EgoyMDI1MDcwNy4wIKXMDSoASAFQAw%3D%3D" class="dropdown__link">
+                        <img src="../img/components/Ubicacion_2.png" class="dropdown__icon" width="25px" height="25px">
+                        <span class="dropdown__span">Ubicacion</span>
+                    </a>
+                </li>
+                
+            </ul>
+
+    </nav>
+
+<div class="overflow"></div>
+
+                        <div class="content_block_2">
+                              
+                                                    <div class="muestras_menu">
+                                                        <div class="img_product_C_1"></div> 
+                                                            <div class="text_description">
+                                                                    <p style="font-size: 24px;font-weight: 500;">BOLOBURGER CLÁSICA</p>
+                                                                    <br>
+                                                                    <p>Ingredientes:</p>
+                                                                    <br>
+                                                                    <p>200g de carne, queso amarillo,tocino,lechuga,jitomate,cebolla y pepinos</p>
+                                                                    <br>
+                                                                <strong><p style="font-size: 24px;font-weight: 500;">$109</p></strong>
+                                                            </div>
+                                                    </div>
+                                                    <div class="muestras_menu">
+                                                        <div class="img_product_C_2"></div> 
+                                                            <div class="text_description">
+                                                                    <p style="font-size: 24px;font-weight: 500;">BOLOBURGER CON JAMÓN Y QUESO</p>
+                                                                    <br>
+                                                                    <p>Ingredientes:</p>
+                                                                    <br>
+                                                                    <p>200g de carne, jamón, queso amarillo, lechuga, jitomate, cebolla y pepinos</p>
+                                                                    <br>
+                                                                <strong><p style="font-size: 24px;font-weight: 500;">$119</p></strong>
+                                                            </div>
+                                                    </div>
+                                                    <div class="muestras_menu">
+                                                        <div class="img_product_C_3"></div> 
+                                                            <div class="text_description">
+                                                                    <p style="font-size: 24px;font-weight: 500;">BOLOBURGER ASADERA</p>
+                                                                    <br>
+                                                                    <p>Ingredientes:</p>
+                                                                    <br>
+                                                                    <p>200g de carne, queso amarillo, lechuga, jitomate, cebolla y pepinos</p>
+                                                                    <br>
+                                                                <strong><p style="font-size: 24px;font-weight: 500;">$119</p></strong>
+                                                            </div>
+                                                    </div>
+                                                    <div class="muestras_menu">
+                                                        <div class="img_product_C_4"></div> 
+                                                            <div class="text_description">
+                                                                    <p style="font-size: 24px;font-weight: 500;">BOLOBURGER ESPECIAL</p>
+                                                                    <br>
+                                                                    <p>Ingredientes:</p>
+                                                                    <br>
+                                                                    <p>200g de carne, queso amarillo y tocino, lechuga, jitomate, cebolla y pepinos</p>
+                                                                    <br>
+                                                                <strong><p style="font-size: 24px;font-weight: 500;">$129</p></strong>
+                                                            </div>
+                                                    </div>
+                                                    <div class="muestras_menu">
+                                                        <div class="img_product_C_5"></div> 
+                                                            <div class="text_description">
+                                                                    <p style="font-size: 24px;font-weight: 500;">BOLOBURGER HAWAI</p>
+                                                                    <br>
+                                                                    <p>Ingredientes:</p>
+                                                                    <br>
+                                                                    <p>200g de carne, jamón, piña 100% natural, lechuga, jitomate, cebolla y pepinos</p>
+                                                                    <br>
+                                                                <strong><p style="font-size: 24px;font-weight: 500;">$129</p></strong>
+                                                            </div>
+                                                    </div>
+                                                    <div class="muestras_menu">
+                                                        <div class="img_product_C_6"></div> 
+                                                            <div class="text_description">
+                                                                    <p style="font-size: 24px;font-weight: 500;">BOLOBURGER CHAMPIQUESO</p>
+                                                                    <br>
+                                                                    <p>Ingredientes:</p>
+                                                                    <br>
+                                                                    <p>200g de carne, queso asadero, champiñon, lechuga, jitomate, cebolla y pepinos</p>
+                                                                    <br>
+                                                                <strong><p style="font-size: 24px;font-weight: 500;">$129</p></strong>
+                                                            </div>
+                                                    </div>
+                                                    <div class="muestras_menu">
+                                                        <div class="img_product_C_7"></div> 
+                                                            <div class="text_description">
+                                                                    <p style="font-size: 24px;font-weight: 500;">BOLOBURGER CHORIQUESO</p>
+                                                                    <br>
+                                                                    <p>Ingredientes:</p>
+                                                                    <br>
+                                                                    <p>200g de carne, queso asadero, chorizo para asar, lechuga, jitomate, cebolla y pepinos</p>
+                                                                    <br>
+                                                                <strong><p style="font-size: 24px;font-weight: 500;">$129</p></strong>
+                                                            </div>
+                                                    </div>
+                                                      <div class="muestras_menu">
+                                                        <div class="img_product_C_8"></div> 
+                                                            <div class="text_description">
+                                                                    <p style="font-size: 24px;font-weight: 500;">BOLOBURGER CHULETA</p>
+                                                                    <br>
+                                                                    <p>Ingredientes:</p>
+                                                                    <br>
+                                                                    <p>200g de carne, queso asadero, chorizo para asar, lechuga, jitomate, cebolla y pepinos</p>
+                                                                    <br>
+                                                                <strong><p style="font-size: 24px;font-weight: 500;">$129</p></strong>
+                                                            </div>
+                                                    </div>
+                                                     <div class="muestras_menu">
+                                                        <div class="img_product_C_9"></div> 
+                                                            <div class="text_description">
+                                                                    <p style="font-size: 24px;font-weight: 500;">BOLOBURGER CARNES FRÍAS</p>
+                                                                    <br>
+                                                                    <p>Ingredientes:</p>
+                                                                    <br>
+                                                                    <p>200g de carne, queso asadero, chorizo para asar, lechuga, jitomate, cebolla y pepinos</p>
+                                                                    <br>
+                                                                <strong><p style="font-size: 24px;font-weight: 500;">$129</p></strong>
+                                                            </div>
+                                                    </div>
+                                                     <div class="muestras_menu">
+                                                        <div class="img_product_C_10"></div> 
+                                                            <div class="text_description">
+                                                                    <p style="font-size: 24px;font-weight: 500;">BOLOBURGER GUACAMOLE BACON</p>
+                                                                    <br>
+                                                                    <p>Ingredientes:</p>
+                                                                    <br>
+                                                                    <p>200g de carne, queso asadero, chorizo para asar, lechuga, jitomate, cebolla y pepinos</p>
+                                                                    <br>
+                                                                <strong><p style="font-size: 24px;font-weight: 500;">$129</p></strong>
+                                                            </div>
+                                                    </div>
+                                                     <div class="muestras_menu">
+                                                        <div class="img_product_C_11"></div> 
+                                                            <div class="text_description">
+                                                                    <p style="font-size: 24px;font-weight: 500;">BOLOBURGER ESPAÑOLA</p>
+                                                                    <br>
+                                                                    <p>Ingredientes:</p>
+                                                                    <br>
+                                                                    <p>200g de carne, queso asadero, chorizo para asar, lechuga, jitomate, cebolla y pepinos</p>
+                                                                    <br>
+                                                                <strong><p style="font-size: 24px;font-weight: 500;">$129</p></strong>
+                                                            </div>
+                                                    </div>
+                                                     <div class="muestras_menu">
+                                                        <div class="img_product_C_12"></div> 
+                                                            <div class="text_description">
+                                                                    <p style="font-size: 24px;font-weight: 500;">BOLOBURGER NORTEÑA</p>
+                                                                    <br>
+                                                                    <p>Ingredientes:</p>
+                                                                    <br>
+                                                                    <p>200g de carne, queso asadero, chorizo para asar, lechuga, jitomate, cebolla y pepinos</p>
+                                                                    <br>
+                                                                <strong><p style="font-size: 24px;font-weight: 500;">$139</p></strong>
+                                                            </div>
+                                                    </div>
+                                                     <div class="muestras_menu">
+                                                        <div class="img_product_C_13"></div> 
+                                                            <div class="text_description">
+                                                                    <p style="font-size: 24px;font-weight: 500;">BOLOBURGER DOBLE RES</p>
+                                                                    <br>
+                                                                    <p>Ingredientes:</p>
+                                                                    <br>
+                                                                    <p>200g de carne, queso asadero, chorizo para asar, lechuga, jitomate, cebolla y pepinos</p>
+                                                                    <br>
+                                                                <strong><p style="font-size: 24px;font-weight: 500;">$159</p></strong>
+                                                            </div>
+                                                    </div>
+                                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                             </div>
 
-                <div class="overflow"></div>
+<div class="overflow"></div>
+
                     <div class="footer">
                         <div class="content_block_footer">
                         <div class="block_1_footer">
@@ -93,12 +375,11 @@
                 
                         </div>
 
-        
+                    
     </div>
-        <script src="/js/lops.js"></script>
-        <script src="/js/extens_page_index.js"></script>
-        <script src="/js/gen_muestra/gen_muestra_H_DP.js"></script>
 
+        <script src="js/lops.js"></script>
+      
         
 </body>
 </html>

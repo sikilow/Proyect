@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.img_product_E_1{
+    background-image: url(../img/Bebidas/Especiales_B/blue_shark.jpg);
+}
+.img_product_E_2{
+    background-image: url(../img/Bebidas/Especiales_B/arcoiris.jpg);
+}
+.img_product_E_3{
+    background-image: url(../img/Bebidas/Especiales_B/bombastic.jpg);
+}
+

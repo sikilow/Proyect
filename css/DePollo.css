@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.img_product_DP_1{
+    background-image: url(../img/Hamburguesas/DePollo/chiken_pollo.jpg);
+   
+}
+.img_product_DP_2{
+
+    background-image: url(../img/Hamburguesas/DePollo/chiken_cheese.jpg);
+}
+.img_product_DP_3{
+
+    background-image: url(../img/Hamburguesas/DePollo/chiken_asadera.jpg);
+}
+.img_product_DP_4{
+
+    background-image: url(../img/Hamburguesas/DePollo/chiken_bañada.jpg);
+}
+.img_product_DP_5{
+    background-image: url(../img/Hamburguesas/DePollo/chiken_dip.jpg);
+}
+.img_product_DP_6{
+    background-image: url(../img/Hamburguesas/DePollo/chiken_nacho.jpg);
+}
+.img_product_DP_7{
+    background-image: url(../img/Hamburguesas/DePollo/champi_chiken.jpg);
+}
+.img_product_DP_8{
+    background-image: url(../img/Hamburguesas/DePollo/country_chiken.jpg);
+}
+.img_product_DP_9{
+    background-image: url(../img/Hamburguesas/DePollo/porto_bello.jpg);
+}
+
+
+
+
+

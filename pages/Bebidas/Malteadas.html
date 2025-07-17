@@ -4,57 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bebidas</title>
-     <link rel="stylesheet" href="css/heder.css">
-    <link rel="stylesheet" href="css/block_2.css">
-    <link rel="stylesheet" href="css/muestras_product.css">
-    <link rel="stylesheet" href="css/mediaQuerys/screenpc.css">
+     <link rel="stylesheet" href="../../css/header.css">
+     <link rel="stylesheet" href="../../css/footer.css">
+    <link rel="stylesheet" href="../../css/block_2.css">
+    <link rel="stylesheet" href="../../css/muestras_product.css">
+    <link rel="stylesheet" href="../../css/mediaQuerys/screenpc.css">
+    <link rel="stylesheet" href="../../css/mediaQuerys/screen-phone.css">
+    <link rel="stylesheet" href="../../css/Malteadas.css">
 </head>
 <body>
-
-    <div class="body">
-
-    <nav class="nav">
-
-        <div class="nav__container">
-
-            <h1 class="nav__title">Boloburguer</h1>
-
-            <a href="#menu" class="nav__menu">
-                <img src="./assets/menu.svg" class="nav__icon">
-            </a>
-
-            <a href="#" class="nav__menu nav__menu--second">
-                <img src="./assets/close.svg" class="nav__icon ">
-            </a>
-
-            <ul class="dropdown" id="menu">
+     <div class="body">
+      <nav class="nav">
+                <div class="nav__container">
+                    <div class="img_logo_nav"></div>
+                    <a href="#menu" class="nav__menu">
+                    <img src="../../img/components/menu.svg" class="nav__icon">
+                    </a>
+                    <a href="#" class="nav__menu nav__menu--second">
+                    <img src="../../img/components/close.svg" class="nav__icon ">
+                    </a>
+                    <ul class="dropdown" id="menu">
 
                 <li class="dropdown__list">
-                    <a href="Bebidas.html" class="dropdown__link">
+                    <a href="#" class="dropdown__link">
                        
                         <span class="dropdown__span">Bebidas</span>
-                         <img src="./assets/down.svg" class="dropdown__arrow">
-
-                        <input type="checkbox" class="dropdown__check">
+                         <img src="../../img/components/down.svg" class="dropdown__arrow">
+                        <input type="checkbox" class="dropdown__check" data-dropdown>
                     </a>
                      <div class="dropdown__content">
 
-                        <ul class="dropdown__sub">
+                        <ul class="dropdown__sub">  <!-- Sub menu de bebidas-->
 
                             <li class="dropdown__li">
-                                <a href="Malteadas.html" class="dropdown__anchor">Malteadas</a>
-                            </li>
-                            <li class="dropdown__li">
-                                <a href="Limonadas.html" class="dropdown__anchor">Limonadas de la Casa</a>
-                            </li>
-                            <li class="dropdown__li">
-                                <a href="Tradicionales.html" class="dropdown__anchor">Tradicionales</a>
+                                <a href="../Bebidas/Malteadas.html" class="dropdown__anchor">Malteadas</a>
                             </li>
                              <li class="dropdown__li">
-                                <a href="DeLaCasa.html" class="dropdown__anchor">De la casa</a>
+                                <a href="../Bebidas/Especiales.html" class="dropdown__anchor">Especiales</a>
                             </li>
                             <li class="dropdown__li">
-                                <a href="LimonadasTonicas.html" class="dropdown__anchor">Limonadas Tónicas</a>
+                                <a href="../Bebidas/Limonadas.html" class="dropdown__anchor">Limonadas de la Casa</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="../Bebidas/Tradicionales.html" class="dropdown__anchor">Tradicionales</a>
+                            </li>
+                             <li class="dropdown__li">
+                                <a href="../Bebidas/DeLaCasa_B.html" class="dropdown__anchor">De la casa</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="../Bebidas/LimonadasTonicas.html" class="dropdown__anchor">Limonadas Tónicas</a>
                             </li>
                         </ul>
 
@@ -63,28 +61,33 @@
 
                 <li class="dropdown__list">
                     <a href="#" class="dropdown__link">
-                      
-                        <span class="dropdown__span">Hamburguesas</span>
-                        <img src="./assets/down.svg" class="dropdown__arrow">
 
-                        <input type="checkbox" class="dropdown__check">
+                        <span class="dropdown__span">Hamburguesas</span> <!-- Sub menu de hamburguesas -->
+                        <img src="../../img/components/down.svg" class="dropdown__arrow">
+
+                        <input type="checkbox" class="dropdown__check" data-dropdown>
                     </a>
 
                     <div class="dropdown__content">
 
                         <ul class="dropdown__sub">
-
-                            <li class="dropdown__li">
-                                <a href="AlCarbon.html" class="dropdown__anchor">Al Carbon</a>
+                             <li class="dropdown__li">
+                                <a href="../../index.html" class="dropdown__anchor">Clásicas</a>
                             </li>
                             <li class="dropdown__li">
-                                <a href="Especiales.html" class="dropdown__anchor">Especiale</a>
+                                <a href="../Hamburguesas/AlCarbon.html" class="dropdown__anchor">Al Carbon</a>
                             </li>
                             <li class="dropdown__li">
-                                <a href="DeLaCasa.html" class="dropdown__anchor">De la Casa</a>
+                                <a href="../Hamburguesas/DelMar.html" class="dropdown__anchor">Del Mar</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="../Hamburguesas/DeLaCasa.html" class="dropdown__anchor">De la Casa</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="../Hamburguesas/DePollo.html" class="dropdown__anchor">De Pollo</a>
                             </li>
                              <li class="dropdown__li">
-                                <a href="Infantiles.html" class="dropdown__anchor">Infantiles</a>
+                                <a href="../Hamburguesas/Infantiles.html" class="dropdown__anchor">Infantiles</a>
                             </li>
 
                         </ul>
@@ -93,84 +96,153 @@
                 </li>
 
                 <li class="dropdown__list">
-                    <a href="#" class="dropdown__link">
+                    <a href="../Snacks/Snacks.html" class="dropdown__link">
                        
-                        <span class="dropdown__span">Charrolas</span>
-                        
-
-                        <input type="checkbox" class="dropdown__check">
+                        <span class="dropdown__span">Snacks</span> <!-- Sub menu de snacks -->
+                       
                     </a>
-
-                   
                 </li>
 
                 <li class="dropdown__list">
                     <a href="#" class="dropdown__link">
-                        <img src="./assets/help.svg" class="dropdown__icon">
+                        <img src="../../img/components/whatsap-04.png" height="25px" width="25px" class="dropdown__icon">
                         <span class="dropdown__span">Contacto</span>
                     </a>
                 </li>
-
+                <li class="dropdown__list">
+                    <a href="https://www.google.com.mx/maps/place/BOLO+BURGERS/@21.4886589,-104.8858565,17z/data=!3m1!4b1!4m6!3m5!1s0x84273767d399c917:0x209464fc247e9ca!8m2!3d21.4886539!4d-104.8832816!16s%2Fg%2F11vln0b_gs?hl=es&entry=ttu&g_ep=EgoyMDI1MDcwNy4wIKXMDSoASAFQAw%3D%3D" class="dropdown__link">
+                        <img src="../../img/components/ubi-icon.png" class="dropdown__icon" width="25px" height="25px">
+                        <span class="dropdown__span">Ubicacion</span>
+                    </a>
+                </li>
+                
             </ul>
 
         </div>
 
     </nav>
+       
 
-     <div class="overflow"></div>
+       
+            <!-- Header -->
+      <div class="content_block_2">
+                              
+                                                    <div class="muestras_menu">
+                                                        <div class="img_product_B_M_1" ></div> 
+                                                            <div class="text_description">
+                                                                    <p style="font-size: 24px;font-weight: 500;">MALTEADA DE FRESA</p>
+                                                                    <br>
+                                                                  <strong><p style="font-size: 24px;font-weight: 500;">$55</p></strong>
+                                                            </div>
+                                                    </div>
+                                                    <div class="muestras_menu">
+                                                        <div class="img_product_B_M_2"></div> 
+                                                            <div class="text_description">
+                                                                    <p style="font-size: 24px;font-weight: 500;">MALTEADA DE VAINILLA</p>
+                                                                    <br>
+                                                                  <strong><p style="font-size: 24px;font-weight: 500;">$55</p></strong>
+                                                            </div>
+                                                    </div>
+                                                    <div class="muestras_menu">
+                                                        <div class="img_product_B_M_3"></div> 
+                                                            <div class="text_description">
+                                                                    <p style="font-size: 24px;font-weight: 500;">MALTEADA DE CHOCOLATE</p>
+                                                                    <br>
+                                                                 <strong><p style="font-size: 24px;font-weight: 500;">$55</p></strong>
+                                                            </div>
+                                                    </div>
+                                                    <div class="muestras_menu">
+                                                        <div class="img_product_B_M_4"></div> 
+                                                            <div class="text_description">
+                                                                    <p style="font-size: 24px;font-weight: 500;">MALTEADA DE OREO</p>
+                                                                    <br>
+                                                                   <strong><p style="font-size: 24px;font-weight: 500;">$55</p></strong>
+                                                            </div>
+                                                    </div>
+                                                    
+                                                    <div class="muestras_menu">
+                                                            <div class="text_description">
+                                                                   <p style="font-size: 24px;font-weight: 500;">Refresco............................................$25</p>
+                                                                   <p style="font-size: 24px;font-weight: 500;">Botella de Agua..............................$20</p>
+                                                                   <p style="font-size: 24px;font-weight: 500;">Agua Mineral...................................$35</p>
+                                                                    
+                                                                   <br>
+                                                            </div>
+                                                    </div>
+                                                   
+                                                    
+                                                    
 
-        <div class="content_block_2">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            </div>
             
-            <div class="muestras_menu">
-                <div class="img_product"></div> 
-                <div class="text_description">
-                    <p>Malteada de Fresa</p>
-                    <br>
-                    <p>Ingredientes: Fresa, leche y crema.</p>
-                    <br>
-                   <strong><p>$50</p></strong>
-                </div>
+        <!--Footer-->
+        <div class="footer">
+            <div class="content_block_footer">
+            <div class="block_1_footer">
+            <div class="img_logo_footer"></div>
+            <div class="redes_footer">
+                    <ul class="list_redes_footer">
+                        <li class="facebook_footer_li"><a href="https://www.facebook.com/profile.php?id=100063525038564" target="_blank">
+                            <div class="facebook_footer"></div>
+                        </a></li>
+                        <li class="instagram_footer_li"><a href="https://www.instagram.com/boloburgers/" target="_blank">
+                            <div class="instagram_footer"></div>
+                        </a></li>
+                        <li class="WhatsApp_footer_li"><a href="https://www.twitter.com/boloburgers/">
+                            <div class="WhatsApp_footer"></div>
+                        </a></li>
+                    </ul>
+                
+
+
             </div>
-            <div class="muestras_menu">
-                <div class="img_product"></div> 
-                <div class="text_description">
-                    <p>Malteada de Vainilla</p>
-                    <br>
-                    <p>Ingredientes:</p>
-                    <br>
-                   <strong><p>$50</p></strong>
-                </div>
             </div>
-            <div class="muestras_menu">
-                <div class="img_product"></div> 
-                <div class="text_description">
-                    <p>Malteada de Chocolate</p>
-                    <br>
-                    <p>Ingredientes: </p>
-                    <br>
-                   <strong><p>$50</p></strong>
-                </div>
+            <div class="block_2_footer">
+                <p class="text_block_2_footer">Ubicación</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3712.486427998581!2d-104.88585652402178!3d21.488658871822615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x84273767d399c917%3A0x209464fc247e9ca!2sBOLO%20BURGERS!5e0!3m2!1ses!2smx!4v1752033830101!5m2!1ses!2smx" width="100%" height="70%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map_block"></iframe>
             </div>
-            <div class="muestras_menu">
-                <div class="img_product"></div> 
-                <div class="text_description">
-                    <p>Malteada de Oreo</p>
-                    <br>
-                    <p>Ingredientes: </p>
-                    <br>
-                   <strong><p>$50</p></strong>
+            <div class="block_3_footer">
+                <div class="text_footer_horario">
+                    <p class="titule_footer_horario">Horario </p>
+                    <ul class="list_footer_horario">
+                        <li><p>Martes a Domingo  : 05:00 PM - 11:00 PM</p> </li>
+                        
+                        <li><p>Lunes     : Cerrado</p> </li>
+                    </ul>
                 </div>
+
+
             </div>
 
-<div class="overflow"></div>
-    <div class="footer"></div>
-        <script>
-  const hamburger = document.getElementById('hamburger');
-  const menu = document.getElementById('menu');
+            <div class="block_4_footer">
+                <p>&copy; 2023 Boloburgers. Todos los derechos reservados.</p>
+                </div>
 
-  hamburger.addEventListener('click', () => {
-    menu.classList.toggle('active');
-  });
-</script>
+        </div>
+
+        
+    
+        </div>
+    </div>
+    <script src="/js/lops.js"></script>
+    
+   
 </body>
 </html>

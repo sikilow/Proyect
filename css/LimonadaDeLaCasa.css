@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.img_product_B_L_1{
+    background-image: url(../img/Bebidas/LimonadasDeLaCasa_B/limonada_azul.jpg);
+}
+.img_product_B_L_2{
+    background-image: url(../img/Bebidas/LimonadasDeLaCasa_B/limonada_de_uva.jpg);
+}
+.img_product_B_L_3{
+    background-image: url(../img/Bebidas/LimonadasDeLaCasa_B/limonada_de_fresa.jpg);
+}
+.img_product_B_L_4{
+    background-image: url(../img/Bebidas/LimonadasDeLaCasa_B/limonada_de_sandía.jpg);
+}
+.img_product_B_L_5{
+    background-image: url(../img/Bebidas/LimonadasDeLaCasa_B/limonada_de_pepino.jpg);
+}
+.img_product_B_L_6{
+    background-image: url(../img/Bebidas/LimonadasDeLaCasa_B/limonada_de_coco.jpg);
+}
+.img_product_B_L_7{
+    background-image: url(../img/Bebidas/LimonadasDeLaCasa_B/limonada_de_piña.jpg);
+}
+.img_product_B_L_8{
+    background-image: url(../img/Bebidas/LimonadasDeLaCasa_B/limonada_de_mango.jpg);
+}
+.img_product_B_L_9{
+    background-image: url(../img/Bebidas/LimonadasDeLaCasa_B/limonada_de_maracuyá.jpg);
+}
+.img_product_B_L_10{
+    background-image: url(../img/Bebidas/Limonadas_Tonicas/zarzamora_frambuesa.jpg  );
+}
+

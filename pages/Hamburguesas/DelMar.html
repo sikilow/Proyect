@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Menu Boloburguers</title>
+    <title>Del Mar</title>
     <!-- SEO Meta Tags -->
     <meta name="description" content="En Boloburguers Menú, ofrecemos una amplia variedad de hamburguesas gourmet, acompañamientos deliciosos y bebidas refrescantes. ¡Descubre nuestro menú y haz tu pedido hoy!">
     <meta name="keywords" content="hamburguesas, comida rápida, Boloburguers">
@@ -25,24 +25,192 @@
     <meta name="twitter:image" content="cont_media/assets/Sin título.png">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="assets/icon-burguer.png">
-    <link rel="stylesheet" href="../../css/heder.css">
+    <link rel="icon" type="image/png" href="../../img/components/icon-burguer.png">
+    <link rel="stylesheet" href="../../css/header.css">
     <link rel="stylesheet" href="../../css/footer.css">
     <link rel="stylesheet" href="../../css/block_2.css">
     <link rel="stylesheet" href="../../css/muestras_product.css">
     <link rel="stylesheet" href="../../css/mediaQuerys/screenpc.css">
     <link rel="stylesheet" href="../../css/mediaQuerys/screen-phone.css">
+    <link rel="stylesheet" href="../../css/DelMar.css">
 </head>
 <body>
     <div class="body">
+      <nav class="nav">
+                <div class="nav__container">
+                    <div class="img_logo_nav"></div>
+                    <a href="#menu" class="nav__menu">
+                    <img src="../../img/components/menu.svg" class="nav__icon">
+                    </a>
+                    <a href="#" class="nav__menu nav__menu--second">
+                    <img src="../../img/components/close.svg" class="nav__icon ">
+                    </a>
+                    <ul class="dropdown" id="menu">
 
-        <div id="header"></div>
-            
-        <div class="content_block_2">
-            <div class="muestras_menu"></div>
+                <li class="dropdown__list">
+                    <a href="#" class="dropdown__link">
+                       
+                        <span class="dropdown__span">Bebidas</span>
+                         <img src="../../img/components/down.svg" class="dropdown__arrow">
+                        <input type="checkbox" class="dropdown__check" data-dropdown>
+                    </a>
+                     <div class="dropdown__content">
+
+                        <ul class="dropdown__sub">  <!-- Sub menu de bebidas-->
+
+                            <li class="dropdown__li">
+                                <a href="../Bebidas/Malteadas.html" class="dropdown__anchor">Malteadas</a>
+                            </li>
+                             <li class="dropdown__li">
+                                <a href="../Bebidas/Especiales.html" class="dropdown__anchor">Especiales</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="../Bebidas/Limonadas.html" class="dropdown__anchor">Limonadas de la Casa</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="../Bebidas/Tradicionales.html" class="dropdown__anchor">Tradicionales</a>
+                            </li>
+                             <li class="dropdown__li">
+                                <a href="../Bebidas/DeLaCasa_B.html" class="dropdown__anchor">De la casa</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="../Bebidas/LimonadasTonicas.html" class="dropdown__anchor">Limonadas Tónicas</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </li>
+
+                <li class="dropdown__list">
+                    <a href="#" class="dropdown__link">
+
+                        <span class="dropdown__span">Hamburguesas</span> <!-- Sub menu de hamburguesas -->
+                        <img src="../../img/components/down.svg" class="dropdown__arrow">
+
+                        <input type="checkbox" class="dropdown__check" data-dropdown>
+                    </a>
+
+                    <div class="dropdown__content">
+
+                        <ul class="dropdown__sub">
+                             <li class="dropdown__li">
+                                <a href="../../index.html" class="dropdown__anchor">Clásicas</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="../Hamburguesas/AlCarbon.html" class="dropdown__anchor">Al Carbon</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="../Hamburguesas/DelMar.html" class="dropdown__anchor">Del Mar</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="../Hamburguesas/DeLaCasa.html" class="dropdown__anchor">De la Casa</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="../Hamburguesas/DePollo.html" class="dropdown__anchor">De Pollo</a>
+                            </li>
+                             <li class="dropdown__li">
+                                <a href="../Hamburguesas/Infantiles.html" class="dropdown__anchor">Infantiles</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </li>
+
+                <li class="dropdown__list">
+                    <a href="../Snacks/Snacks.html" class="dropdown__link">
+                       
+                        <span class="dropdown__span">Snacks</span> <!-- Sub menu de snacks -->
+                       
+                    </a>
+                </li>
+
+                <li class="dropdown__list">
+                    <a href="#" class="dropdown__link">
+                        <img src="../../img/components/whatsap-04.png" height="25px" width="25px" class="dropdown__icon">
+                        <span class="dropdown__span">Contacto</span>
+                    </a>
+                </li>
+                <li class="dropdown__list">
+                    <a href="https://www.google.com.mx/maps/place/BOLO+BURGERS/@21.4886589,-104.8858565,17z/data=!3m1!4b1!4m6!3m5!1s0x84273767d399c917:0x209464fc247e9ca!8m2!3d21.4886539!4d-104.8832816!16s%2Fg%2F11vln0b_gs?hl=es&entry=ttu&g_ep=EgoyMDI1MDcwNy4wIKXMDSoASAFQAw%3D%3D" class="dropdown__link">
+                        <img src="../../img/components/ubi-icon.png" class="dropdown__icon" width="25px" height="25px">
+                        <span class="dropdown__span">Ubicacion</span>
+                    </a>
+                </li>
+                
+            </ul>
+
         </div>
-            
 
+    </nav>
+       
+       
+            <!-- Header -->
+      <div class="content_block_2">
+                              
+                                                    <div class="muestras_menu">
+                                                        <div class="img_product_DLM_1"></div> 
+                                                            <div class="text_description">
+                                                                    <p style="font-size: 24px;font-weight: 500;">BOLOBURGER CAMARÓN</p>
+                                                                    <br>
+                                                                    <p>Ingredientes:</p>
+                                                                    <br>
+                                                                    <p>Camarón a la plancha, queso asadero,cebolla caramelizada, lechuga jitomate, cebolla y pepinillos.</p>
+                                                                    <br>
+                                                                <strong><p style="font-size: 24px;font-weight: 500;">$119</p></strong>
+                                                            </div>
+                                                    </div>
+                                                    <div class="muestras_menu">
+                                                        <div class="img_product_DLM_2"></div> 
+                                                            <div class="text_description">
+                                                                    <p style="font-size: 24px;font-weight: 500;">BOLOFISH</p>
+                                                                    <br>
+                                                                    <p>Ingredientes:</p>
+                                                                    <br>
+                                                                    <p>Pescado empanizado con el Crunchy de la casa,aderezo de chipotle,lechuga,jitomate,cebolla y pepinillos.</p>
+                                                                    <br>
+                                                                <strong><p style="font-size: 24px;font-weight: 500;">$109</p></strong>
+                                                            </div>
+                                                    </div>
+                                                    <div class="muestras_menu">
+                                                        <div class="img_product_DLM_3"></div> 
+                                                            <div class="text_description">
+                                                                    <p style="font-size: 24px;font-weight: 500;">BOLOBURGER CAMARÓN CRUNCHY</p>
+                                                                    <br>
+                                                                    <p>Ingredientes:</p>
+                                                                    <br>
+                                                                    <p>Camarón con el crunchy de la casa,queso asadero, cebolla caramelizzada,lechuga, jitomate, cebolla y pepinillos.</p>
+                                                                    <br>
+                                                                <strong><p style="font-size: 24px;font-weight: 500;">$129</p></strong>
+                                                            </div>
+                                                    </div>
+                                                    <div class="muestras_menu">
+                                                        <div class="img_product_DLM_4"></div> 
+                                                            <div class="text_description">
+                                                                    <p style="font-size: 24px;font-weight: 500;">SAN BLAS</p>
+                                                                    <br>
+                                                                    <p>Ingredientes:</p>
+                                                                    <br>
+                                                                    <p>Pan Brioche,medallón de atún marinado a la plancha ,montado sobre una castra de queso y piña natural asada, tiras de chicharrón cebolla morada y pepinillos.</p>
+                                                                    <br>
+                                                                <strong><p style="font-size: 24px;font-weight: 500;">$219</p></strong>
+                                                            </div>
+                                                    </div>
+                                                    <div class="muestras_menu">
+                                                        <div class="img_product_DLM_5"></div> 
+                                                            <div class="text_description">
+                                                                    <p style="font-size: 24px;font-weight: 500;">MEXCALTITÁN</p>
+                                                                    <br>
+                                                                    <p>Ingredientes:</p>
+                                                                    <br>
+                                                                    <p>Pan Brioche, 250g de carne con Marlyn ahumado,queso asadero, montado sobre un guiso de camarones con piña y aderezo de pimientos. Lechuga,jitomate,cebolla morada y pepinillos.</p>
+                                                                    <br>
+                                                                <strong><p style="font-size: 24px;font-weight: 500;">$219</p></strong>
+                                                            </div>
+                                                    </div>
+                            </div>
+            
+        <!--Footer-->
         <div class="footer">
             <div class="content_block_footer">
             <div class="block_1_footer">
@@ -92,7 +260,5 @@
         </div>
     </div>
     <script src="../../js/lops.js"></script>
-    <script src="../../js/gen_muestra/gen_muestra_H_DM.js"></script>
-    <script src="../../js/extns_page.js"></script>
 </body>
 </html>

@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.img_product_T_1{
+    background-image: url(../img/Bebidas/Tradidcionales_B/limonada.jpg);
+}
+.img_product_T_2{
+    background-image: url(../img/Bebidas/Tradidcionales_B/Naranjada.jpg);
+}
+.img_product_T_3{
+    background-image: url(../img/Bebidas/Tradidcionales_B/Pantera_Rosa.jpg );
+}
+.img_product_T_4{
+    background-image: url(../img/Bebidas/Tradidcionales_B/conga.jpg);
+}
+.img_product_T_5{
+    background-image: url(../img/Bebidas/Tradidcionales_B/piñada.jpg);
+}
+.img_product_T_6{
+       background-image: url(../img/Bebidas/Tradidcionales_B/Fresada.jpg);
+}
+.img_product_T_7{
+    background-image: url(../img/Bebidas/Tradidcionales_B/frappe.jpg);
+}
+

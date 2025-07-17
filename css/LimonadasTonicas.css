@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.img_product_B_LT_1{
+    background-image: url(../img/Bebidas/Limonadas_Tonicas/piña_uva.jpg);
+}
+.img_product_B_LT_2{
+    background-image: url(../img/Bebidas/Limonadas_Tonicas/fresa_kiwi.jpg);
+}
+.img_product_B_LT_3{
+    background-image: url(../img/Bebidas/Limonadas_Tonicas/frutos_rojos.jpg);
+}
+.img_product_B_LT_4{
+    background-image: url(../img/Bebidas/Limonadas_Tonicas/sandia_fresa.jpg);
+}
+.img_product_B_LT_5{
+    background-image: url(../img/Bebidas/Limonadas_Tonicas/sandia_melon.jpg);
+}
+.img_product_B_LT_6{
+    background-image: url(../img/Bebidas/Limonadas_Tonicas/cereza_frambuesa.jpg);
+}
+.img_product_B_LT_7{
+    background-image: url(../img/Bebidas/Limonadas_Tonicas/kiwi_hierbabuena.jpg);
+}
+.img_product_B_LT_8{
+    background-image: url(../img/Bebidas/Limonadas_Tonicas/blueberry_zarzamora.jpg);
+}
+.img_product_B_LT_9{
+    background-image: url(../img/Bebidas/Limonadas_Tonicas/fresa_blueberry_piña.jpg);
+}
+.img_product_B_LT_10{
+    background-image: url(../img/Bebidas/Limonadas_Tonicas/zarzamora_frambuesa.jpg  );
+}
+

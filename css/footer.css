@@ -35,7 +35,7 @@
     padding: 0px;
     width: 425px;
     height: 220px;
-    background-image: url(../components/boloburguers-05.png);
+    background-image: url(../img/components/boloburguers-05.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -57,7 +57,7 @@
     margin-right: 25px;
     width: 75px;
     height: 75px;
-    background-image: url(../components/logos\,\ face\,\ insta\ y\ ubi-03.png);
+    background-image: url(../img/components/logos\,\ face\,\ insta\ y\ ubi-03.png);
     background-repeat: no-repeat;
     background-size: cover;
     float: left;
@@ -70,7 +70,7 @@
     margin-right: 25px ;
     width: 75px;
     height: 75px;
-    background-image: url(../components/insta-04.png);
+    background-image: url(../img/components/insta-04.png);
     background-repeat: no-repeat;
     background-size: cover;
     float: left;
@@ -81,7 +81,7 @@
     margin-right: 25px ;
     width: 75px;
     height: 75px;
-    background-image: url(../components/whatsap-04.png);
+    background-image: url(../img/components/whatsap-04.png);
     background-repeat: no-repeat;
     background-size: cover;
     float: left;
