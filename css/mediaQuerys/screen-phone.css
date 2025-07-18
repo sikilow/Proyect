@@ -1,9 +1,25 @@
 @media screen and (max-width: 768px) {
+    html{
+        scroll-behavior: smooth;
+    }
     .img_logo_nav{
     width: 67vw;
     height: 67px;
     max-width: 200px;
     
+  }
+  .btn_redirect_header{
+    position: fixed;
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border-radius: 50%;
+    right: 30px;
+    bottom: 75px;
+    transition: 1s;
+  }
+  .btn_inicio{
+    transition: 1s;
   }
   .content_block_2 {
         margin: 0 auto;
