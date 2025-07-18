@@ -66,9 +66,13 @@ body{
 }
 
 .nav__icon{
-    width: 30px;
+    width: 50px;
     display: block;
  
+}
+.nav__icon_2{
+    width: 30px;
+    display: block;
 }
 
 .dropdown{

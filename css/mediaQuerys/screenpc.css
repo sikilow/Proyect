@@ -30,15 +30,14 @@
     position: fixed;
     height: 75px;
     width: 75px;
-    background-color: black;
-    border-radius: 50%;
+    background-image: url(/img/components/flecha_home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     right: 30px;
     bottom: 75px;
-    transition: 1s;
+    
   }
-  .btn_inicio{
-    transition: 1s;
-  }
+ 
 
   .hamburger {
     display: block;
@@ -101,15 +100,14 @@
     position: fixed;
     height: 75px;
     width: 75px;
-    background-color: black;
-    border-radius: 50%;
+    background-image: url(/img/components/flecha_home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     right: 30px;
     bottom: 75px;
-    transition: 1s;
+
   }
-  .btn_inicio{
-    transition: 1s;
-  }
+ 
     .muestras_menu {
         margin-top: 0px;
         float: left;
@@ -243,15 +241,14 @@ margin-top: 50px;
     position: fixed;
     height: 75px;
     width: 75px;
-    background-color: black;
-    border-radius: 50%;
+    background-image: url(/img/components/flecha_home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     right: 30px;
     bottom: 75px;
-    transition: 1s;
+   
   }
-  .btn_inicio{
-    transition: 1s;
-  }
+  
   .img_logo_nav{
     width: 67vw;
     max-width: 200px;
@@ -325,15 +322,14 @@ width: 100%;
     position: fixed;
     height: 75px;
     width: 75px;
-    background-color: black;
-    border-radius: 50%;
+    background-image: url(/img/components/flecha_home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     right: 30px;
     bottom: 75px;
-    transition: 1s;
+  
   }
-  .btn_inicio{
-    transition: 1s;
-  }
+ 
 
    .img_product_C_1, .img_product_C_2, .img_product_C_3, .img_product_C_4, .img_product_C_5 ,  .img_product_C_6 ,  .img_product_C_7 , .img_product_C_8 ,   .img_product_C_9 , .img_product_C_10    ,.img_product_C_11, .img_product_C_12, .img_product_C_13 {
       width: 100%;
