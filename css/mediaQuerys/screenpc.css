@@ -28,8 +28,8 @@
   }
   .btn_redirect_header{
     position: fixed;
-    height: 75px;
-    width: 75px;
+    height: 50px;
+    width: 50px;
     background-color: black;
     border-radius: 50%;
     right: 30px;
@@ -99,8 +99,8 @@
   }
   .btn_redirect_header{
     position: fixed;
-    height: 75px;
-    width: 75px;
+    height: 50px;
+    width: 50px;
     background-color: black;
     border-radius: 50%;
     right: 30px;
@@ -241,8 +241,8 @@ margin-top: 50px;
   }
   .btn_redirect_header{
     position: fixed;
-    height: 75px;
-    width: 75px;
+    height: 50px;
+    width: 50px;
     background-color: black;
     border-radius: 50%;
     right: 30px;
