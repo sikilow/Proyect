@@ -17,28 +17,12 @@
     margin: 0 auto;
     display: block;
   }
-     html{
-        scroll-behavior: smooth;
-    }
-    .img_logo_nav{
+ .img_logo_nav{
     width: 67vw;
     height: 67px;
     max-width: 200px;
     
   }
-  .btn_redirect_header{
-    position: fixed;
-    height: 75px;
-    width: 75px;
-    background-image: url(img/components/flecha_home.png);
-    background-size: cover;
-    background-repeat:no-repeat;
-    right: 30px;
-    bottom: 75px;
-
-  }
- 
-
   .hamburger {
     display: block;
   }
@@ -87,27 +71,13 @@
   }
 }
 @media screen and (max-width:728px) {
-      html{
-        scroll-behavior: smooth;
-    }
+   
     .img_logo_nav{
     width: 67vw;
     height: 67px;
     max-width: 200px;
     
   }
-  .btn_redirect_header{
-    position: fixed;
-    height: 75px;
-    width: 75px;
-    background-image: url(img/components/flecha_home.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    right: 30px;
-    bottom: 75px;
-
-  }
- 
     .muestras_menu {
         margin-top: 0px;
         float: left;
@@ -237,17 +207,7 @@ margin-top: 50px;
     max-width: 200px;
     
   }
-  .btn_redirect_header{
-    position: fixed;
-    height: 75px;
-    width: 75px;
-    background-image: url(img/components/flecha_home.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    right: 30px;
-    bottom: 75px;
-   
-  }
+
   
   .img_logo_nav{
     width: 67vw;
@@ -309,28 +269,12 @@ width: 100%;
     font-size: 16px;
   }
   @media screen and (max-width: 932px) {
-       html{
-        scroll-behavior: smooth;
-    }
-    .img_logo_nav{
+ .img_logo_nav{
     width: 67vw;
     height: 67px;
     max-width: 200px;
     
   }
-  .btn_redirect_header{
-    position: fixed;
-    height: 75px;
-    width: 75px;
-    background-image: url(img/components/flecha_home.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    right: 30px;
-    bottom: 75px;
-  
-  }
- 
-
    .img_product_C_1, .img_product_C_2, .img_product_C_3, .img_product_C_4, .img_product_C_5 ,  .img_product_C_6 ,  .img_product_C_7 , .img_product_C_8 ,   .img_product_C_9 , .img_product_C_10    ,.img_product_C_11, .img_product_C_12, .img_product_C_13 {
       width: 100%;
       height: 250px;

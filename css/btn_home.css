@@ -1,0 +1,57 @@
+html{
+    scroll-behavior: smooth;
+}
+@media screen and (max-width: 450px) {
+  .btn_redirect_header{
+    position: fixed;
+    height: 75px;
+    width: 75px;
+    background-image: url(../img/components/flecha_home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: 30px;
+    bottom: 75px;
+   
+  }
+
+}
+@media screen and (max-width: 768px) {
+ .btn_redirect_header{
+    position: fixed;
+    height: 75px;
+    width: 75px;
+    background-image: url(../img/components/flecha_home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: 30px;
+    bottom: 75px;
+   
+  }
+    
+}
+@media screen and (max-width: 768px) {
+ .btn_redirect_header{
+    position: fixed;
+    height: 75px;
+    width: 75px;
+    background-image: url(../img/components/flecha_home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: 30px;
+    bottom: 75px;
+   
+  }
+    
+}
+@media screen and (max-width: 932px) {
+    .btn_redirect_header{
+    position: fixed;
+    height: 75px;
+    width: 75px;
+    background-image: url(../img/components/flecha_home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: 30px;
+    bottom: 75px;
+    }
+}
