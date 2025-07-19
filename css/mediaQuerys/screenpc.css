@@ -30,8 +30,6 @@
     position: fixed;
     height: 75px;
     width: 75px;
-    background-color: black;
-   
     right: 30px;
     bottom: 75px;
 
@@ -99,9 +97,6 @@
     position: fixed;
     height: 75px;
     width: 75px;
-    background-image: url(/img/components/flecha_home.png);
-    background-repeat: no-repeat;
-    background-size: cover;
     right: 30px;
     bottom: 75px;
 
@@ -240,9 +235,6 @@ margin-top: 50px;
     position: fixed;
     height: 75px;
     width: 75px;
-    background-image: url(/img/components/flecha_home.png);
-    background-repeat: no-repeat;
-    background-size: cover;
     right: 30px;
     bottom: 75px;
    
@@ -321,9 +313,6 @@ width: 100%;
     position: fixed;
     height: 75px;
     width: 75px;
-    background-image: url(/img/components/flecha_home.png);
-    background-repeat: no-repeat;
-    background-size: cover;
     right: 30px;
     bottom: 75px;
   
