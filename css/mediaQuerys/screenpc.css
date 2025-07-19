@@ -30,12 +30,11 @@
     position: fixed;
     height: 75px;
     width: 75px;
-    background-image: url(/img/components/flecha_home.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: black;
+   
     right: 30px;
     bottom: 75px;
-    
+
   }
  
 

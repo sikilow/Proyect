@@ -1,22 +1,13 @@
+html{
+    scroll-behavior: smooth;
+}
 @media screen and (max-width: 768px) {
-    html{
-        scroll-behavior: smooth;
-    }
+   
     .img_logo_nav{
     width: 67vw;
     height: 67px;
     max-width: 200px;
     
-  }
-  .btn_redirect_header{
-    position: fixed;
-    height: 75px;
-    width: 75px;
-    background-image: url(/img/components/flecha_home.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    right: 30px;
-    bottom: 75px;
   }
   .content_block_2 {
         margin: 0 auto;
