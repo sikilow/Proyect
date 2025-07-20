@@ -20,7 +20,7 @@
     background-image: url(../img/Hamburguesas/DePollo/chiken_bañada.jpg);
 }
 .img_product_DP_5{
-    background-image: url(../img/Hamburguesas/DePollo/chiken_dip.jpg);
+    background-image: url(../img/Hamburguesas/DePollo/chiken_dip.jpg);/*CAMBIO DE IMAGEN PQ SALE LA DE CAMARON*/
 }
 .img_product_DP_6{
     background-image: url(../img/Hamburguesas/DePollo/chiken_nacho.jpg);
@@ -32,7 +32,7 @@
     background-image: url(../img/Hamburguesas/DePollo/country_chiken.jpg);
 }
 .img_product_DP_9{
-    background-image: url(../img/Hamburguesas/DePollo/porto_bello.jpg);
+    background-image: url(../img/Hamburguesas/DePollo/light.jpg);/*Cambio de imagen*/
 }
 
 
