@@ -32,6 +32,9 @@
     background-image: url(../img/Hamburguesas/DePollo/country_chiken.jpg);
 }
 .img_product_DP_9{
+    background-image: url(../img/Hamburguesas/DePollo/porto_bello.jpg);/*Cambio de imagen*/
+}
+.img_product_DP_10{
     background-image: url(../img/Hamburguesas/DePollo/light.jpg);/*Cambio de imagen*/
 }
 
