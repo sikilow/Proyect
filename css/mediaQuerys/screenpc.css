@@ -177,7 +177,7 @@ margin-top: 50px;
     }
     /*Snacks*/
   .img_product_S_1, .img_product_S_2, .img_product_S_3, .img_product_S_4, .img_product_S_5 ,  .img_product_S_6 ,  .img_product_S_7 , .img_product_S_8 ,   .img_product_S_9 , .img_product_S_10    ,.img_product_S_11, .img_product_S_12 , .img_product_S_13    ,.img_product_S_14, .img_product_S_15 , .img_product_S_16    ,.img_product_S_17 , .img_product_S_18 , .img_product_S_19 ,.img_product_S_20,.img_product_S_21 {
-margin-top: 50px;
+        margin-top: 50px;
         float: left;
         height: 350px;
         width: 370px;
